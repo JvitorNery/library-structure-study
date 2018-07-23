@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./jquery.js"></script>
+    <script src="./Greetr.js"></script>
+    <script src="./app.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="loginDiv">
+        <select id="langSelected" onchange="g.setLang(langSelected.value)">
+            <option value="en">en</option>
+            <option value="es">es</option>
+            <option value="pt">pt</option>
+        </select>
+        <button id="login" onclick="greetingHTML()">Login</button>
+    </div>
+    <div id="greeting"></div>
+</body>
+
+</html>
